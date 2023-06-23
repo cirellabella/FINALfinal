@@ -33,7 +33,7 @@ namespace FINALfinal
             InitializeComponent();
             //preloading the list view with user accounts
             Preload();
-
+            Data.SaveUsers();
         }
 
         //Preload method to add user accounts to the list

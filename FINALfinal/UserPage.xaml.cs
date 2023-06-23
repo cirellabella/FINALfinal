@@ -32,10 +32,11 @@ namespace FINALfinal
             lvTransactions.ItemsSource = transactions;
 
             lblUser.Content = Data.currentUser.Name;
+
         }
 
-        //private void CreateNewFile(string filePath) 
-        //    // Used to create a file on load to guarantee a file exists.Use on page load.
+        //private void CreateNewFile(string filePath)
+        //// Used to create a file on load to guarantee a file exists.Use on page load.
         //{
         //    FileStream tryout = File.OpenWrite(filePath);
         //    tryout.Close();
